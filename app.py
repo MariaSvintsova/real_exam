@@ -185,7 +185,7 @@ def update_birthday(friend_id):
 @app.route('/birthday/<int:friend_id>', methods=["DELETE"])
 def delete(friend_id):
     """
-    Changes all fields in birthday by friend_id.
+    Changes all fields in birthday by friend_id..
 
     Returns:
         response (str): Result of function: "deleted" or error.
